@@ -1,0 +1,25 @@
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; background: #0b0f19; color: #e6e8ed; }
+
+a { color: #93c5fd; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.site-header { padding: 24px; text-align: center; background: linear-gradient(135deg, #0b0f19, #121a2b); border-bottom: 1px solid #1f2a44; }
+.site-header h1 { margin: 0 0 8px; font-size: 28px; }
+.subtitle { margin: 0; opacity: 0.8; }
+
+.container { max-width: 960px; margin: 0 auto; padding: 24px; }
+
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+.card { display: block; padding: 16px; background: #121826; border: 1px solid #1f2a44; border-radius: 16px; box-shadow: 0 6px 18px rgba(0,0,0,0.25); transition: transform 0.12s ease; }
+.card:hover { transform: translateY(-2px); }
+
+.list .item { background: #121826; border: 1px solid #1f2a44; border-radius: 14px; padding: 16px; margin-bottom: 12px; }
+.list .item h3 { margin: 0 0 8px; font-size: 18px; }
+.list .item p { margin: 0 0 8px; line-height: 1.5; opacity: 0.95; }
+.list .item .link { word-break: break-all; font-size: 14px; opacity: 0.85; }
+
+.sources-block { margin-top: 32px; }
+.sources-block h3 { margin-bottom: 8px; }
+
+.site-footer { padding: 16px; text-align: center; border-top: 1px solid #1f2a44; opacity: 0.8; }

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Azure AI Foundry – News & Docs Agents</title>
+  <link rel="stylesheet" href="/static/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Azure AI Foundry – Intel Hub</h1>
+    <p class="subtitle">Powered by Google Gemini + Flask</p>
+  </header>
+
+  <main class="container">
+    <section class="grid">
+      <a class="card" href="/news">
+        <h2>Top 5 News</h2>
+        <p>Latest headlines about Azure AI Foundry.</p>
+      </a>
+      <a class="card" href="/improvements">
+        <h2>Technical Improvements</h2>
+        <p>Most relevant updates from official docs.</p>
+      </a>
+      <a class="card" href="/sources">
+        <h2>Sources</h2>
+        <p>All links and references cited by the agents.</p>
+      </a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>© <span id="year"></span> Azure AI Foundry Intel Hub</span>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
